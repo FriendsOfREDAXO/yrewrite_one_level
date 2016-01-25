@@ -9,3 +9,11 @@ wird zu
 `example.tld/en/malabar`
 
 Wichtig: Das Schema ist nur dann sinnvoll, wenn Seiten innerhalb einer Sprache _nicht mehrfach_ vorkommen. Gäbe es etwa einen Malabar-Kaffee auch in Brasilien, sollte dieses URL-Schema besser nicht verwendet werden.
+
+
+## Installation
+
+1. Paket im Plugins-Ordner von yrewrite ablegen: `redaxo/src/addons/yrewrite/plugins/one-level-no-suffix`  
+_Hilfe: Sollte der Unterordner `plugins` nicht existieren, einfach einen anlegen!_
+2. Plugin im REDAXO-Adminbereich aktivieren.
+3. Cache löschen, um URLs neu zu generieren.
