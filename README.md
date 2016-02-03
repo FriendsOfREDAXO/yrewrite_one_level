@@ -2,8 +2,8 @@
 
 __Plugin__ für das REDAXO-Addon [yrewrite](https://github.com/yakamara/redaxo_yrewrite): Implementiert ein kurzes URL-Schema für alle Unterseiten.
 
-`example.tld/en/coffee/beans/india/malabar.html`  _(yform 1)_  
-`example.tld/en/coffee/beans/india/malabar/`  _(yform 2)_  
+`example.tld/en/coffee/beans/india/malabar.html`  _(yrewrite 1)_  
+`example.tld/en/coffee/beans/india/malabar/`  _(yrewrite 2)_  
 
 wird zu
 
