@@ -2,11 +2,12 @@
 
 __Plugin__ für das REDAXO-Addon [yrewrite](https://github.com/yakamara/redaxo_yrewrite): Implementiert ein kurzes URL-Schema für alle Unterseiten.
 
-`example.tld/en/coffee/beans/india/malabar.html`  
+`example.tld/en/coffee/beans/india/malabar.html`  _(yrewrite 1)_  
+`example.tld/en/coffee/beans/india/malabar/`  _(yrewrite 2)_  
 
 wird zu
 
-`example.tld/en/malabar`
+`example.tld/en/malabar`  _(ohne trailing slash)_  
 
 Wichtig: Das Schema ist nur dann sinnvoll, wenn Seiten innerhalb einer Sprache _nicht mehrfach_ vorkommen. Gäbe es etwa einen Malabar-Kaffee auch in Brasilien, sollte dieses URL-Schema besser nicht verwendet werden.
 
