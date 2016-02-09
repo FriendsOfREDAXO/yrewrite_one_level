@@ -1,6 +1,8 @@
 <?php
 class one_level_no_suffix extends rex_yrewrite_scheme
 {
+    protected $suffix = null;
+    
     public function appendCategory($path, rex_category $cat, rex_yrewrite_domain $domain)
     {
         return $path;
