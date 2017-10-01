@@ -1,20 +1,17 @@
-# One-level, no suffix (yrewrite-Plugin)
+# URL-Schema »One-level« für YRewrite
 
-__Plugin__ für das REDAXO-Addon [yrewrite](https://github.com/yakamara/redaxo_yrewrite): Implementiert ein kurzes URL-Schema für alle Unterseiten.
+Implementiert ein kurzes URL-Schema für alle Unterseiten auf Basis von [yrewrite](https://github.com/yakamara/redaxo_yrewrite).
+
+## Schema
+
+__Vorher:__
 
 `example.tld/en/coffee/beans/india/malabar.html`  _(yrewrite 1)_  
 `example.tld/en/coffee/beans/india/malabar/`  _(yrewrite 2)_  
 
-wird zu
+__Nachher:__
 
 `example.tld/en/malabar`  _(ohne trailing slash)_  
 
-Wichtig: Das Schema ist nur dann sinnvoll, wenn Seiten innerhalb einer Sprache _nicht mehrfach_ vorkommen. Gäbe es etwa einen Malabar-Kaffee auch in Brasilien, sollte dieses URL-Schema besser nicht verwendet werden.
+⚠️ Wichtig: Das Schema ist nur dann sinnvoll, wenn Seiten innerhalb einer Sprache __nicht mehrfach vorkommen__. Gäbe es etwa den Malabar-Kaffee nicht nur in 🇮🇳 Indien, sondern auch in 🇧🇷 Brasilien, sollte dieses URL-Schema besser nicht verwendet werden!
 
-
-## Installation
-
-1. Paket im Plugins-Ordner von yrewrite ablegen: `redaxo/src/addons/yrewrite/plugins/one-level-no-suffix`  
-_Hilfe: Sollte der Unterordner `plugins` nicht existieren, einfach einen anlegen!_
-2. Plugin im REDAXO-Adminbereich aktivieren.
-3. Cache löschen, um URLs neu zu generieren.

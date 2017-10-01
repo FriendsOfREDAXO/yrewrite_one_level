@@ -1,4 +1,4 @@
-package: yrewrite/one-level-no-suffix
-version: '1.0.2'
+package: yrewrite_one_level
+version: '2.0.0'
 author: Friends Of REDAXO
-supportpage: https://github.com/FriendsOfREDAXO/yrewrite_one-level-no-suffix
+supportpage: https://github.com/FriendsOfREDAXO/yrewrite_one_level

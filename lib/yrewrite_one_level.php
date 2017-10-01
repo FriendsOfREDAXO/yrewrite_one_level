@@ -1,5 +1,5 @@
 <?php
-class one_level_no_suffix extends rex_yrewrite_scheme
+class yrewrite_one_level extends rex_yrewrite_scheme
 {
     protected $suffix = null;
     
