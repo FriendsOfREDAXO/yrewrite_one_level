@@ -15,3 +15,6 @@ __Nachher:__
 
 ⚠️ Wichtig: Das Schema ist nur dann sinnvoll, wenn Seiten innerhalb einer Sprache __nicht mehrfach vorkommen__. Gäbe es etwa den Malabar-Kaffee nicht nur in 🇮🇳 Indien, sondern auch in 🇧🇷 Brasilien, sollte dieses URL-Schema besser nicht verwendet werden!
 
+## Eigenes Schema verwenden ohne dieses AddOn?
+
+Anleitung und Beispiele: https://github.com/FriendsOfREDAXO/tricks/blob/master/addons_yrewrite_url_schemes.md
